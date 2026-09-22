@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+table{
+    border: 3 px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr {
+    height: 50px;
+}
+
+td, th {
+    text-align: center;
+    width: 100px;
+    border-width: 2px;
+}
+table{
+    border-collapse: collapse;
+}
+.Vacio{
+    background-color: dimgrey;
+}
+.Progra{
+    background-color: #f2dcdb;
+}
+.Sistemes{
+    background-color: #ffff99;
+}
+.Fol{
+    background-color: #dbe5f1;
+} 
+.EiE{
+    background-color: #ffcc99;
+}
+.BBDD{
+    background-color: #d6e3bc;
+}
+.Web{
+    background-color: #b8cce4;
+}
+.ERP{
+    background-color: #dafdcf;
+}
+.Tutoria{
+    background-color: pink;
+}
