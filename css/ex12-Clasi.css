@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo img{
+    height: 50px;
+    width: 70px;
+}
+.Main-Grid{
+    background-color: aqua;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F6F7F9;
+    padding: 1em;
+    position: sticky;
+}
+
+header{
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
