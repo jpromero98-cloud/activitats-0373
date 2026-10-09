@@ -1,136 +1,168 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  list-style: none;
+  text-decoration: none;
 }
-#logo img{
-    height: 50px;
-    width: 70px;
+
+#logo img {
+  height: 50px;
+  width: 70px;
 }
-.Main-Grid{
-    background-color: aqua;
+
+.Main-Grid {
+  background-color: aqua;
 }
+
 nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: #F6F7F9;
-    padding: 1em;
-    position: sticky;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6f7f9;
+  padding: 1em;
+  position: sticky;
 }
 
-header{
-    text-align: center;
-    position: sticky;
-    top: 0;
-}
-.tablas-Equipos{
-    width: 95%;
-    margin: 3em auto 0 auto;
+header {
+  text-align: center;
+  position: sticky;
+  top: 0;
 }
 
-.Region{
-    background-color: brown;
+.tablas-Equipos {
+  width: 95%;
+  margin: 3em auto 0 auto;
+}
+
+.Region {
+  background-color: brown;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .Equipos {
     border: 2px solid black;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    .Equipos{
-        border: 2px solid black;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items:center;
-        gap: 3em;
-        width: 80%;
-        margin: 3em;
-    }
+    gap: 3em;
+    width: 80%;
+    margin: 3em;
+  }
 }
-.Equipo{
-    border: 2px solid black;
-    display: flex;
-    height: 20em;
-    min-width: 15em;
-    justify-content: center;
-    align-items: top;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: large;
-    position: relative;
+
+.Equipo {
+  border: 2px solid black;
+  display: flex;
+  height: 20em;
+  min-width: 15em;
+  justify-content: center;
+  align-items: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: large;
+  position: relative;
 }
 
 .Equipo .Jugadores {
-    display: none; /* Se oculta de inicio */
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.85); /* Fondo oscuro para leer las letras */
-    color: white;
-    
-    /* Centrado con Flexbox */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: none; /* Se oculta de inicio */
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85); /* Fondo oscuro para leer las letras */
+  color: white;
+
+  /* Centrado con Flexbox */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.Equipo:hover{
-    background-image: none;
+
+#Gen-G {
+  background-image: url(/Imagenes/Gen-G.webp);
 }
-.Equipo.hover .Jugadores{
+
+#Gen-G:hover {
+  background-image: none;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
     display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
 }
-#Gen-G{
-    background-image: url(/Imagenes/Gen-G.webp);
+
+#Hanwha {
+  background-image: url(/Imagenes/Hanwha.webp);
 }
-#Hanwha{
-    background-image: url(/Imagenes/Hanwha.webp);
+#T1 {
+  background-image: url(/Imagenes/T1+red.webp);
 }
-#T1{
-    background-image: url(/Imagenes/T1+red.webp);
+#DPlus {
+  background-image: url(/Imagenes/600px-Dplus_darkmode.webp);
 }
-#DPlus{
-    background-image: url(/Imagenes/600px-Dplus_darkmode.webp);
+#Anyone {
+  background-image: url(/Imagenes/Anyones.webp);
 }
-#Anyone{
-    background-image: url(/Imagenes/Anyones.webp);
+#BiliBili {
+  background-image: url(/Imagenes/1682322954525_Bilibili_Gaming_logo_20211.webp);
 }
-#BiliBili{
-    background-image: url(/Imagenes/1682322954525_Bilibili_Gaming_logo_20211.webp);
+#Top {
+  background-image: url(/Imagenes/Top_Esportslogo_profile.webp);
 }
-#Top{
-    background-image: url(/Imagenes/Top_Esportslogo_profile.webp);
+#Invictus {
+  background-image: url(/Imagenes/600px-Invictus_Gaming_full_darkmode.webp);
 }
-#Invictus{
-    background-image: url(/Imagenes/600px-Invictus_Gaming_full_darkmode.webp);
+#G2 {
+  background-image: url(/Imagenes/G2.webp);
 }
-#G2{
-    background-image: url(/Imagenes/G2.webp);
+#MKoi {
+  background-image: url(/Imagenes/Mkoi.webp);
 }
-#MKoi{
-    background-image: url(/Imagenes/Mkoi.webp);
+#TL {
+  background-image: url(/Imagenes/TL.webp);
 }
-#TL{
-    background-image: url(/Imagenes/TL.webp);
+#LYON {
+  background-image: url(/Imagenes/LYON.webp);
 }
-#LYON{
-    background-image: url(/Imagenes/LYON.webp);
+#TSW {
+  background-image: url(/Imagenes/TSW.webp);
 }
-#TSW{
-    background-image: url(/Imagenes/TSW.webp);
+#Oyster {
+  background-image: url(/Imagenes/Ostras.webp);
 }
-#Oyster{
-    background-image: url(/Imagenes/Ostras.webp);
+#C9 {
+  background-image: url(/Imagenes/C9.webp);
 }
-#C9{
-    background-image: url(/Imagenes/C9.webp);   
+#KCorp {
+  background-image: url(/Imagenes/KCorp.webp);
 }
-#KCorp{
-    background-image: url(/Imagenes/KCorp.webp);
+#MVK {
+  background-image: url(/Imagenes/MKV.webp);
 }
-#MVK{
-    background-image: url(/Imagenes/MKV.webp);
+#LOS {
+  background-image: url(/Imagenes/LOS.webp);
 }
-#LOS{
-    background-image: url(/Imagenes/LOS.webp);
+#FURIA {
+  background-image: url(/Imagenes/FURIA.webp);
 }
-#FURIA{
-    background-image: url(/Imagenes/FURIA.webp);
+
+/* #Gen-G .Jugadores:hover {
+  display: block;
 }
+
+.Equipo.hover .Jugadores {
+  display: flex;
+} */
