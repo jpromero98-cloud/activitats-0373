@@ -28,6 +28,7 @@ header {
   text-align: center;
   position: sticky;
   top: 0;
+  
 }
 
 .tablas-Equipos {
@@ -107,62 +108,396 @@ header {
 #Hanwha {
   background-image: url(/Imagenes/Hanwha.webp);
 }
+#Hanwha:hover {
+  background-image: none;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
+}
 #T1 {
   background-image: url(/Imagenes/T1+red.webp);
+}
+#T1:hover {
+  background-image: none;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
 }
 #DPlus {
   background-image: url(/Imagenes/600px-Dplus_darkmode.webp);
 }
+#DPlus:hover {
+  background-image: none;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
+}
 #Anyone {
   background-image: url(/Imagenes/Anyones.webp);
+}
+#Anyone:hover {
+  background-image: none;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
 }
 #BiliBili {
   background-image: url(/Imagenes/1682322954525_Bilibili_Gaming_logo_20211.webp);
 }
+#BiliBili:hover {
+  background-image: none;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
+}
 #Top {
   background-image: url(/Imagenes/Top_Esportslogo_profile.webp);
+}
+#Top:hover {
+  background-image: none;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
 }
 #Invictus {
   background-image: url(/Imagenes/600px-Invictus_Gaming_full_darkmode.webp);
 }
+#Invictus:hover {
+  background-image: none;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
+}
 #G2 {
   background-image: url(/Imagenes/G2.webp);
+}
+#G2:hover {
+  background-image: none;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
 }
 #MKoi {
   background-image: url(/Imagenes/Mkoi.webp);
 }
+#MKoi:hover {
+  background-image: none;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
+}
 #TL {
   background-image: url(/Imagenes/TL.webp);
+}
+#TL:hover {
+  background-image: none;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
 }
 #LYON {
   background-image: url(/Imagenes/LYON.webp);
 }
+#LYON:hover {
+  background-image: none;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
+}
 #TSW {
   background-image: url(/Imagenes/TSW.webp);
+}
+#TSW:hover {
+  background-image: none;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
 }
 #Oyster {
   background-image: url(/Imagenes/Ostras.webp);
 }
+#Oyster:hover {
+  background-image: none;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
+}
 #C9 {
   background-image: url(/Imagenes/C9.webp);
+}
+#C9:hover {
+  background-image: none;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
 }
 #KCorp {
   background-image: url(/Imagenes/KCorp.webp);
 }
+#KCorp:hover {
+  background-image: none;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
+}
 #MVK {
   background-image: url(/Imagenes/MKV.webp);
+}
+#MVK:hover {
+  background-image: none;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
 }
 #LOS {
   background-image: url(/Imagenes/LOS.webp);
 }
+#LOS:hover {
+  background-image: none;
+
+  display: flex;
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
+}
 #FURIA {
   background-image: url(/Imagenes/FURIA.webp);
 }
+#FURIA:hover {
+  background-image: none;
 
-/* #Gen-G .Jugadores:hover {
-  display: block;
-}
-
-.Equipo.hover .Jugadores {
   display: flex;
-} */
+  flex-direction: column;
+
+  p {
+    text-align: center;
+  }
+
+  .Jugadores {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
+}
